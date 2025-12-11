@@ -1,0 +1,55 @@
+// src/data/products.js
+export const products = [
+  {
+    id: 1,
+    name: "Indomie Goreng Special",
+    desc: "Paket hemat 10 pcs",
+    price: 30000,
+    originalPrice: 35000,
+    discount: "15%",
+    image: "https://placehold.co/300", 
+    category: "Sembako",
+  },
+  {
+    id: 2,
+    name: "Beras Premium 5kg",
+    desc: "Beras pulen bebas pemutih",
+    price: 65000,
+    originalPrice: 70000,
+    discount: "5%",
+    image: "https://placehold.co/300",
+    category: "Sembako",
+  },
+  {
+    id: 3,
+    name: "Minyak Goreng 2L",
+    desc: "Minyak sawit jernih",
+    price: 28000,
+    originalPrice: 0,
+    discount: null,
+    image: "https://placehold.co/300",
+    category: "Sembako",
+  },
+  {
+    id: 4,
+    name: "Teh Kotak Sosro",
+    desc: "Minuman teh melati",
+    price: 4500,
+    originalPrice: 0,
+    discount: null,
+    image: "https://placehold.co/300",
+    category: "Minuman",
+  },
+  {
+    id: 5,
+    name: "Kopi Kapal Api",
+    desc: "Kopi bubuk hitam",
+    price: 12000,
+    originalPrice: 15000,
+    discount: "20%",
+    image: "https://placehold.co/300",
+    category: "Minuman",
+  },
+];
+
+export const categories = ["Semua", "Sembako", "Minuman", "Snack", "Bumbu", "Perlengkapan"];
